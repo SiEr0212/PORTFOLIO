@@ -16,12 +16,39 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/plugins.css">
     <link rel="stylesheet" href="css/style.css">
-
-    <link rel="shortcut icon" type="image/x-icon" href="img/TitleIcon/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="img/TitleIcon/favicon.ico"> 
     <title>Simon's Portfolio</title>
+    <style> 
+        .pointer-link { 
+            cursor: pointer; 
+        } 
+        .link:hover {
+      cursor: pointer;
+      }
+       /* unvisited link */
+       a:link {
+      color: #ccc;
+      }
+      /* visited link */
+      a:visited {
+      color: #095484;
+      }
+      /* mouse over link */
+      a:hover {
+      color: #8ebf42;
+      }
+      /* selected link */
+      a:active {
+      color: #800000;
+      }
+    
+    </style> 
 </head>
 <body>
-
+    <div> <canvas id="scene"></canvas>
+    <input id="copy" type="text" value="SIMON ERTEL" />
+</div>
+   
     <!-- pre-loader start -->
     <div class="preloader">
         <div class="preloader-num"></div>
