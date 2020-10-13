@@ -5,6 +5,14 @@ body {
   text-align: center;
 
 }
+.header {
+  display: flex;
+  flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
 .topTitle{
   color: rgb(34, 34, 189);
   font-size: 8vh
@@ -12,7 +20,12 @@ body {
 
 .topTitle:hover{
   color: chartreuse;
+}
 
+.webdevTitle {
+  color: rgb(138, 138, 138);
+  font-size: 4vh;
+  margin-top: 0%;
 }
 .topTitleSidebar{
   padding-top: 9vh;
