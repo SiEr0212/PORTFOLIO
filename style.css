@@ -16,6 +16,7 @@ body {
   color: rgb(34, 34, 189);
   font-size: 8vh;
   margin-bottom: 0%;
+  cursor: default;
 }
 
 .topTitle:hover {
@@ -27,6 +28,7 @@ body {
   font-size: 4vh;
   margin-top: 0%;
   font-family: "Roboto", sans-serif;
+  cursor: default;
 }
 .webdevTitle:hover {
   color: chartreuse;
