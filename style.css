@@ -9,6 +9,11 @@ body {
   color: rgb(34, 34, 189);
   font-size: 8vh
 }
+
+.topTitle:hover{
+  color: chartreuse;
+
+}
 .topTitleSidebar{
   padding-top: 9vh;
   color: rgb(34, 34, 189);
