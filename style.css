@@ -3,22 +3,22 @@ body {
   padding: 0;
   margin: 0;
   text-align: center;
-
 }
 .header {
   display: flex;
   flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
-.topTitle{
+.topTitle {
   color: rgb(34, 34, 189);
-  font-size: 8vh
+  font-size: 8vh;
+  margin-bottom: 0%;
 }
 
-.topTitle:hover{
+.topTitle:hover {
   color: chartreuse;
 }
 
@@ -26,14 +26,20 @@ body {
   color: rgb(138, 138, 138);
   font-size: 4vh;
   margin-top: 0%;
+  font-family: "Roboto", sans-serif;
 }
-.topTitleSidebar{
+.webdevTitle:hover {
+  color: chartreuse;
+
+}
+
+.topTitleSidebar {
   padding-top: 9vh;
+  padding-bottom: 0%;
   color: rgb(34, 34, 189);
-  font-size: 18px
+  font-size: 18px;
 }
 .ImgContainer {
-
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -44,64 +50,65 @@ body {
 
 /*Eliminates padding, centers the thumbnail */
 
-body, html {
+body,
+html {
   padding: 0;
   margin: 0;
   text-align: center;
-  }
-  
-  /* Styles the thumbnail */
-  
-  a.lightbox img {
+}
+
+/* Styles the thumbnail */
+
+a.lightbox img {
   height: 25vh;
   width: 45vh;
   border: 3px solid white;
-  box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
   margin: 94px 20px 20px 20px;
-  }
-  
-  /* Styles the lightbox, removes it from sight and adds the fade-in transition */
-  
-  .lightbox-target {
+}
+
+/* Styles the lightbox, removes it from sight and adds the fade-in transition */
+
+.lightbox-target {
   position: fixed;
   top: -100%;
   width: 100%;
-  background: rgba(0,0,0,.7);
+  background: rgba(0, 0, 0, 0.7);
   width: 100%;
   opacity: 0;
-  -webkit-transition: opacity .5s ease-in-out;
-  -moz-transition: opacity .5s ease-in-out;
-  -o-transition: opacity .5s ease-in-out;
-  transition: opacity .5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
   overflow: hidden;
-  }
-  
-  /* Styles the lightbox image, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */
-  
-  .lightbox-target img {
+}
+
+/* Styles the lightbox image, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */
+
+.lightbox-target img {
   margin: auto;
   position: absolute;
   top: 0;
-  left:0;
-  right:0;
+  left: 0;
+  right: 0;
   bottom: 0;
   max-height: 0%;
   max-width: 0%;
   border: 3px solid white;
-  box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
   box-sizing: border-box;
-  -webkit-transition: .5s ease-in-out;
-  -moz-transition: .5s ease-in-out;
-  -o-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
-  }
-  
-  /* Styles the close link, adds the slide down transition */
-  
-  a.lightbox-close {
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+/* Styles the close link, adds the slide down transition */
+
+a.lightbox-close {
   display: block;
-  width:50px;
-  height:50px;
+  width: 50px;
+  height: 50px;
   box-sizing: border-box;
   background: white;
   color: black;
@@ -109,15 +116,15 @@ body, html {
   position: absolute;
   top: -80px;
   right: 0;
-  -webkit-transition: .5s ease-in-out;
-  -moz-transition: .5s ease-in-out;
-  -o-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
-  }
-  
-  /* Provides part of the "X" to eliminate an image from the close link */
-  
-  a.lightbox-close:before {
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+/* Provides part of the "X" to eliminate an image from the close link */
+
+a.lightbox-close:before {
   content: "";
   display: block;
   height: 30px;
@@ -125,16 +132,16 @@ body, html {
   background: black;
   position: absolute;
   left: -200px;
-  top:140px;
-  -webkit-transform:rotate(45deg);
-  -moz-transform:rotate(45deg);
-  -o-transform:rotate(45deg);
-  transform:rotate(45deg);
-  }
-  
-  /* Provides part of the "X" to eliminate an image from the close link */
-  
-  a.lightbox-close:after {
+  top: 140px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* Provides part of the "X" to eliminate an image from the close link */
+
+a.lightbox-close:after {
   content: "";
   display: block;
   height: 30px;
@@ -142,30 +149,29 @@ body, html {
   background: black;
   position: absolute;
   left: -200px;
-  top:140px;
-  -webkit-transform:rotate(-45deg);
-  -moz-transform:rotate(-45deg);
-  -o-transform:rotate(-45deg);
-  transform:rotate(-45deg);
-  }
-  
-  /* Uses the :target pseudo-class to perform the animations upon clicking the .lightbox-target anchor */
-  
-  .lightbox-target:target {
+  top: 140px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* Uses the :target pseudo-class to perform the animations upon clicking the .lightbox-target anchor */
+
+.lightbox-target:target {
   opacity: 1;
   top: 0;
   bottom: 0;
-  }
-  
-  .lightbox-target:target img {
+}
+
+.lightbox-target:target img {
   max-height: 70%;
   max-width: 70%;
-  }
-  
-  .lightbox-target:target a.lightbox-close {
+}
+
+.lightbox-target:target a.lightbox-close {
   top: 0px;
-  }
-  
+}
 
 /* The sidebar menu */
 .sidenav {
@@ -175,7 +181,7 @@ body, html {
   z-index: 1; /* Stay on top */
   top: 13vh; /* Stay at the top */
   left: 0;
-  background-color: ; /* Black */
+  background-color: white; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
 }
@@ -203,19 +209,22 @@ body, html {
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
 }
 /*manages the github and linkedin divs*/
 .socialLinks {
   display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: center;
-  
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
 }
 /*tags the github and linkedin logo <a> links*/
-.socialLinks  a:hover{
+.socialLinks a:hover {
   animation: shake 0.5s;
 }
 
@@ -225,15 +234,37 @@ body, html {
 }
 
 @keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
 }
