@@ -40,6 +40,7 @@ body {
   padding-bottom: 0%;
   color: rgb(34, 34, 189);
   font-size: 18px;
+  cursor: default;
 }
 .ImgContainer {
   display: flex;
@@ -273,4 +274,36 @@ a.lightbox-close:after {
   100% {
     transform: translate(1px, -2px) rotate(-1deg);
   }
+}
+
+/*About-Page*/
+.aboutMain{
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+
+}
+
+.aboutFoto {
+    width: 20%;
+    height: 20vw;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    border-color:;
+    border:5px solid  chartreuse;
+    margin-top: 5vh;
+}
+
+.aboutFoto:hover {
+  color: rgb(34, 34, 189);
+}
+.profilePic {
+  display: inline;
+  margin: 0 auto; 
+  height: 120%;
+  width: auto;
 }
