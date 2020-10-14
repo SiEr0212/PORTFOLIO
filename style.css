@@ -32,7 +32,6 @@ body {
 }
 .webdevTitle:hover {
   color: chartreuse;
-
 }
 
 .topTitleSidebar {
@@ -48,6 +47,7 @@ body {
 }
 
 .ImgContainer {
+  margin-top: 20vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -59,11 +59,11 @@ body {
 .startScreen {
   margin-top: 30vh;
   display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 /*Eliminates padding, centers the thumbnail */
 
@@ -79,13 +79,13 @@ html {
 a.lightbox img {
   height: 25vh;
   width: 45vh;
-  border-radius:10px;
+  border-radius: 10px;
   border: 3px solid white;
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
   margin: 20px 20px 20px 20px;
 }
 
-a.lightbox img:hover{
+a.lightbox img:hover {
   transform: scale(1.25);
 }
 /* Styles the lightbox, removes it from sight and adds the fade-in transition */
@@ -291,25 +291,23 @@ a.lightbox-close:after {
 }
 
 /*About-Page*/
-.aboutMain{
+.aboutMain {
   display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
-
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 .aboutFoto {
-    width: 20%;
-    height: 20vw;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
-    border-color:;
-    border:5px solid  chartreuse;
-    margin-top: 5vh;
+  width: 20%;
+  height: 20vw;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 5px solid chartreuse;
+  margin-top: 5vh;
 }
 
 .aboutFoto:hover {
@@ -317,26 +315,25 @@ a.lightbox-close:after {
 }
 .profilePic {
   display: inline;
-  margin: 0 auto; 
+  margin: 0 auto;
   height: 120%;
   width: auto;
 }
 
-.aboutTextHeadline {
+.aboutTextHeadline  {
   margin-top: 5vh;
   font-family: "Roboto", sans-serif;
   color: rgb(34, 34, 189);
+  font-weight: 500;
+  font-size: 5vh;
 }
+
 
 .aboutTextHeadline:hover {
-
-color: chartreuse;
+  color: chartreuse;
 }
 
-
-
-
-.aboutSubText{
+.aboutSubText {
   margin-top: 5vh;
   width: 35vw;
   text-align: start;
@@ -349,7 +346,23 @@ color: chartreuse;
 /*CV PAGE*/
 
 .cvImg {
-
   height: 100vh;
   width: 100vw;
+}
+.cvHeadline {
+  font-weight: bold;
+  font-size: 5vh;;
+  margin-top: 5vh;
+  font-family: "Roboto", sans-serif;
+  color: rgb(34, 34, 189);
+  font-weight: 500;
+
+}
+/*Projects Page*/
+
+.projectHeader {
+
+  font-weight: bold;
+  font-size: 5vh;
+  margin-top: 5vh;
 }
