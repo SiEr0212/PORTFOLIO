@@ -389,9 +389,10 @@ a.lightbox-close:after {
 
 .button {
   background-color:
-  rgb(34, 34, 189);
+  chartreuse;
 border-radius: 4px;
-color:chartreuse;
+border: 1px solid  rgb(34, 34, 189);
+color: rgb(34, 34, 189);
 font-family: arial,sans-serif;
 font-size: 14px;
 margin: 11px 4px;
