@@ -346,10 +346,20 @@ a.lightbox-close:after {
 }
 
 /*CV PAGE*/
+.cvContainer{
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: flex-start;
+}
 
 .cvImg {
-  height: 100vh;
+  height: 93vh;
   width: 100vw;
+  margin-bottom: 0%;
+  padding: 0px;
 }
 .cvHeadline {
   font-weight: bold;
@@ -390,7 +400,7 @@ a.lightbox-close:after {
 
 .button {
   
-  background-color:
+background-color:
   chartreuse;
 border-radius: 4px;
 border: 1px solid  rgb(34, 34, 189);
@@ -414,3 +424,7 @@ text-decoration: none;
 
 }
 
+#cvDownload {
+  margin-top: -20px;
+
+}
