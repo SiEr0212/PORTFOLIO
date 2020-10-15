@@ -384,3 +384,24 @@ a.lightbox-close:after {
   height: 30px;
 
 }
+
+/*buttons*/
+
+.button {
+  background-color:
+  rgb(34, 34, 189);
+border-radius: 4px;
+color:chartreuse;
+font-family: arial,sans-serif;
+font-size: 14px;
+margin: 11px 4px;
+padding: 0 16px;
+line-height: 27px;
+height: 36px;
+min-width: 54px;
+text-align: center;
+cursor: pointer;
+user-select: none;
+text-decoration: none;
+
+}
