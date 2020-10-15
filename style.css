@@ -371,7 +371,8 @@ a.lightbox-close:after {
 
 .projectsText {
   
-  width: 44vh;
+  width: 43vh;
+  margin-left: 30px;
   text-align: start;
   font-family: "Roboto", sans-serif;
   color: rgb(34, 34, 189);
