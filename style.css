@@ -349,16 +349,17 @@ a.lightbox-close:after {
 .cvContainer{
   display: flex;
 	flex-direction: column;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	align-content: flex-start;
+  align-content: flex-start;
 }
 
 .cvImg {
-  height: 93vh;
-  width: 100vw;
+  height: 50%;
+  width: 50%;
   margin-bottom: 0%;
+  margin-left: 20%;
   padding: 0px;
 }
 .cvHeadline {
