@@ -47,7 +47,7 @@ body {
 }
 
 .ImgContainer {
-  margin-top: 20vh;
+  margin-top: 10vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -379,6 +379,7 @@ a.lightbox-close:after {
 .single_projects {
 margin:20px
 }
+
 .projectsText {
   width: 43vh;
   margin-left: 30px;
