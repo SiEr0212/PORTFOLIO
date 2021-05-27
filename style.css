@@ -376,6 +376,9 @@ a.lightbox-close:after {
   margin-top: 5vh;
 }
 
+.single_projects {
+margin:20px
+}
 .projectsText {
   width: 43vh;
   margin-left: 30px;
