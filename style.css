@@ -265,6 +265,14 @@ html {
   margin: 20px;
 }
 
+.project-pics {
+
+  object-fit: contain;
+  margin-bottom: 25px;
+  max-height: 40vh;
+  border-radius: 16px;
+}
+
 .projectsText {
   width: 43vh;
   margin-left: 30px;
@@ -320,9 +328,3 @@ html {
 
 
 
-.project-pics {
-
-  object-fit: contain;
-  margin-bottom: 25px;
-  max-height: 40vh;
-}
