@@ -317,3 +317,12 @@ html {
   width: 100%;
   height: 250px;
 } */
+
+/* ---Projects Page-------- */
+
+.project-pics {
+
+  object-fit: contain;
+  margin-bottom: 25px;
+  max-height: 40vh;
+}
