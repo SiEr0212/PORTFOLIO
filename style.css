@@ -113,7 +113,7 @@ html {
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
+@media screen and ( min-device-width: 480px) {
   .sidenav {
     padding-top: 15px;
     
@@ -121,6 +121,18 @@ html {
   .sidenav a {
     font-size: 18px;
   }
+
+  .ImgContainer {
+    padding-right: 10%;
+    margin-left: 10px;
+  }
+
+  .projectsText{
+    padding: 28%
+  }
+
+
+  
 }
 /*manages the github and linkedin divs*/
 .socialLinks {
