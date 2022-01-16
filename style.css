@@ -284,9 +284,9 @@ html {
 .project-links {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: stretch;
+  align-items: center;
   align-content: flex-start;
 }
 .githubLinkLogo {
