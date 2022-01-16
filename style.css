@@ -113,14 +113,17 @@ html {
 }
 
 
-@media screen and ( min-device-width: 480px) {
+@media screen and ( min-width: 480px) {
   .sidenav {
     padding-top: 15px;
+    max-width: 2vw;
     
   }
   .sidenav a {
     font-size: 18px;
+    max-width: 20vw;
   }
+
 
   .ImgContainer {
     padding-right: 10%;
