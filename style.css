@@ -76,7 +76,7 @@ html {
 }
 
 /* The sidebar menu */
-.sidenav {
+/* .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
   width: 120px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
@@ -86,7 +86,7 @@ html {
   background-color: white; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
-}
+} */
 
 /* The navigation menu links */
 .sidenav a {
@@ -114,7 +114,12 @@ html {
     position: fixed;
     padding-top: 1vh;
     height: 40vh;
-    display: inline;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
   }
   .sidenav a {
     font-size: 18px;
