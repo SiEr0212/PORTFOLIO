@@ -113,7 +113,7 @@ html {
   .sidenav {
     position: fixed;
     /* left: 15%; */
-    /* top: 98%; */
+    top: 70%;
     overflow: hidden;
     padding-top: 1vh;
     height: 10vh;
