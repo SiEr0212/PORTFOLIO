@@ -80,8 +80,8 @@ html {
 
 /* The sidebar menu */
 .sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 120px; /* Set the width of the sidebar */
+  height: auto; /* Full-height: remove this if you want "auto" height */
+  width: 100%; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   top: 13vh; /* Stay at the top */
@@ -114,8 +114,8 @@ html {
 
 @media screen and (max-width: 480px) {
   .sidenav {
-    padding-top: 15px;
-    max-width: 2vw;
+    padding-top: 1vh;
+    max-width: 30vw;
   }
   .sidenav a {
     font-size: 18px;
