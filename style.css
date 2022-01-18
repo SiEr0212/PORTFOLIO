@@ -112,7 +112,8 @@ html {
 @media screen and (max-width: 480px) {
   .sidenav {
     position: fixed;
-    left: -15%;
+    /* left: 15%; */
+    /* top: 98%; */
     overflow: hidden;
     padding-top: 1vh;
     height: 10vh;
@@ -134,8 +135,9 @@ html {
   }
 
   .ImgContainer {
-    padding-right: 10%;
-    margin-left: 10px;
+    /* padding-right: 10%;
+    margin-left: 10px; */
+    display: flex;
   }
 
   .projectsText {
