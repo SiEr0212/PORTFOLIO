@@ -112,29 +112,24 @@ html {
   padding: 0px 10px;
 }
 
-
-@media screen and ( max-width: 480px) {
+@media screen and (max-width: 480px) {
   .sidenav {
     padding-top: 15px;
     max-width: 2vw;
-    
   }
   .sidenav a {
     font-size: 18px;
     max-width: 20vw;
   }
 
-
   .ImgContainer {
     padding-right: 10%;
     margin-left: 10px;
   }
 
-  .projectsText{
-    padding: 28%
+  .projectsText {
+    padding: 28%;
   }
-
-
 }
 /*manages the github and linkedin divs*/
 .socialLinks {
@@ -310,7 +305,6 @@ html {
   padding-bottom: 4px;
 }
 
-
 .button {
   background-color: chartreuse;
   border-radius: 4px;
@@ -337,5 +331,3 @@ html {
 #cvDownload {
   margin-top: -20px;
 }
-
-
