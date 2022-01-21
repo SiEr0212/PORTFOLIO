@@ -146,20 +146,22 @@ html {
   }
 
   .ImgContainer {
-    padding-right: 10%;
-    margin-left: 10px;
+    padding: auto;
     display: flex;
   }
 
   .projectsText {
-    padding: 28%;
+   /*  width: 43vh; */
+   /*  margin-left: 8%; */
+    padding: 10%;
+    font-weight: 600;
   }
 }
 /*manages the github and linkedin divs*/
 .socialLinks {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
 }
 /*tags the github and linkedin logo <a> links*/
