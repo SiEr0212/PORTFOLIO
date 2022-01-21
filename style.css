@@ -137,7 +137,7 @@ html {
   .ImgContainer {
     /* padding-right: 10%;
     margin-left: 10px; */
-    /* display: flex; */
+    display: flex;
   }
 
   .projectsText {
