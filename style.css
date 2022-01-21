@@ -114,7 +114,6 @@ html {
     position: fixed;
     /* left: 15%; */
     top: 0;
-    overflow: hidden;
     padding-top: 1vh;
     padding-left: 0%;
     height: 10vh;
@@ -128,6 +127,7 @@ html {
     align-items: center;
     align-content: stretch;
     z-index: 6;
+    overflow-x: hidden; /* Disable horizontal scroll */
   }
 
   .topTitleSidebar {
