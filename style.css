@@ -135,8 +135,8 @@ html {
   }
 
   .ImgContainer {
-    /* padding-right: 10%;
-    margin-left: 10px; */
+   padding-right: 10%;
+    margin-left: 10px;
     display: flex;
   }
 
