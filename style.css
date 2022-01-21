@@ -128,10 +128,11 @@ html {
     align-content: stretch;
     z-index: 6;
   }
-  
+
   .topTitleSidebar {
     width: 1vw;
   }
+  
   .sidenav a {
     font-size: 18px;
     max-width: 20vw;
