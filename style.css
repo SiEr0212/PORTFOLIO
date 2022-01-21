@@ -110,6 +110,11 @@ html {
 }
 
 @media screen and (max-width: 480px) {
+  .main {
+    margin: auto;
+    padding: auto;
+  }
+
   .sidenav {
     position: fixed;
     /* left: 15%; */
