@@ -151,19 +151,31 @@ html {
   }
 
   .projectsText {
-   /*  width: 43vh; */
-   /*  margin-left: 8%; */
+    /*  width: 43vh; */
+    /*  margin-left: 8%; */
     padding: 10%;
     font-weight: 600;
   }
+/*   .socialLinks {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  } */
 }
+
+
 /*manages the github and linkedin divs*/
-.socialLinks {
+/* .socialLinks {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: flex-start;
+} */
 /*tags the github and linkedin logo <a> links*/
 .socialLinks a:hover {
   animation: shake 0.5s;
