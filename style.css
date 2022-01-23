@@ -117,7 +117,7 @@ html {
 
   .sidenav {
     position: absolute;
-    /* left: 15%; */
+    left: -5%;
     top: 0;
     /* padding-top: 1vh; */
     padding-left: 0%;
@@ -132,7 +132,7 @@ html {
     align-items: center;
     align-content: stretch;
     z-index: 6;
-    overflow-x: hidden; /* Disable horizontal scroll */
+    
   }
 
   .topTitleSidebar {
