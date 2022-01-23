@@ -137,7 +137,8 @@ html {
   .topTitleSidebar {
    position: fixed;
    top: -5%;
-   left: 50%;
+   left: 38%;
+   font-size: 18px;
 
   }
 
