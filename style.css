@@ -154,10 +154,18 @@ html {
   }
 
   .projectsText {
+    padding: 30px;
     font-weight: 600;
   }
   .socialLinks {
     margin-left: 6vw;
+  }
+
+  .project-links a {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+  
   }
 }
 
