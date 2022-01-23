@@ -135,7 +135,10 @@ html {
   }
 
   .topTitleSidebar {
-    display: none;
+   position: fixed;
+   top: -5%;
+   left: 50%;
+
   }
 
   .sidenav a {
