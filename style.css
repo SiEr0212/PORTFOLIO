@@ -135,11 +135,10 @@ html {
   }
 
   .topTitleSidebar {
-   position: absolute;
-   top: -90%;
-   left: 38%;
-   font-size: 18px;
-
+    position: absolute;
+    top: -90%;
+    left: 38%;
+    font-size: 18px;
   }
 
   .sidenav a {
@@ -163,9 +162,8 @@ html {
 
   .project-links a {
     display: block;
-/* 	flex-direction: column;
+    /* 	flex-direction: column;
 	flex-wrap: nowrap; */
-  
   }
 }
 
