@@ -155,14 +155,9 @@ html {
     padding: 10%;
     font-weight: 600;
   }
-  /*   .socialLinks {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-  } */
+    .socialLinks {
+    margin-left: 6vw;
+  }
 }
 
 /*manages the github and linkedin divs*/
