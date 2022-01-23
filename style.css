@@ -162,9 +162,9 @@ html {
   }
 
   .project-links a {
-    display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
+    display: block;
+/* 	flex-direction: column;
+	flex-wrap: nowrap; */
   
   }
 }
