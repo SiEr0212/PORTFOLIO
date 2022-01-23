@@ -132,7 +132,6 @@ html {
     align-items: center;
     align-content: stretch;
     z-index: 6;
-    
   }
 
   .topTitleSidebar {
@@ -156,7 +155,7 @@ html {
     padding: 10%;
     font-weight: 600;
   }
-/*   .socialLinks {
+  /*   .socialLinks {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -165,7 +164,6 @@ html {
     align-content: center;
   } */
 }
-
 
 /*manages the github and linkedin divs*/
 /* .socialLinks {
