@@ -90,6 +90,7 @@ html {
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
   background: rgb(35,255,0);
+  box-shadow: 0 0 5px 10px rgb(39, 167, 22);
 }
 
 /* The navigation menu links */
