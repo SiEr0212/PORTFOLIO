@@ -42,6 +42,7 @@ background: radial-gradient(circle, rgba(35,255,0,0.7511379551820728) 13%, rgba(
   color: rgb(34, 34, 189);
   font-size: 16px;
   cursor: pointer;
+  
 }
 
 .topTitleSidebar:hover {
@@ -88,6 +89,8 @@ html {
   background-color: white; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
+  background: rgb(35,255,0);
+  
 }
 
 /* The navigation menu links */
