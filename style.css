@@ -112,6 +112,11 @@ html {
   /* #f1f1f1;*/
 }
 
+/* shows the current page highlighted */
+.currentPage {
+  color: chartreuse;
+}
+
 /* Style page content */
 .main {
   margin-left: 160px; /* Same as the width of the sidebar */
