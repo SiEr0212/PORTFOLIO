@@ -192,6 +192,10 @@ html {
   .project-links a {
     display: block;
   }
+
+  .aboutSubText {
+    width: 100vw
+  }
 }
 
 .socialLinks a:hover {
