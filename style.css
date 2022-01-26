@@ -278,14 +278,14 @@ html {
 }
 
 /*CV PAGE*/
-.cvContainer {
+/* .cvContainer {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   align-content: center;
-}
+} */
 
 .cvImg {
   height: 50%;
