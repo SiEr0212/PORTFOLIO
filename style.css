@@ -242,7 +242,7 @@ html {
   border-radius: 50%;
   border: 5px solid rgb(34, 34, 189);
   margin-top: 5vh;
-  background-color: #FDFDFD;
+  background-color: #fdfdfd;
 }
 
 .aboutFoto:hover {
@@ -284,7 +284,7 @@ html {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  align-content:center;
+  align-content: center;
 }
 
 .cvImg {
