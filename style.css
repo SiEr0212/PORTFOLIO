@@ -126,7 +126,7 @@ html {
 @media screen and (max-width: 480px) {
   .main {
     margin: auto;
-    padding: auto;
+    padding-top: auto;
   }
 
   .sidenav {
@@ -134,10 +134,10 @@ html {
     left: 0;
     top: 0;
     padding-left: 0%;
-    height: 14vh;
+    height: 10vh;
     width: 100%;
     margin-top: 0vh;
-    margin-bottom: 10vh;
+   /*  margin-bottom: 100vh; */
     overflow: hidden;
     display: flex;
     flex-direction: row;
@@ -165,7 +165,7 @@ html {
     padding: auto;
     display: flex;
   }
-
+  
   .projectsText {
     padding: 30px;
     font-weight: 600;
