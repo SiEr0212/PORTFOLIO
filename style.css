@@ -179,21 +179,9 @@ html {
 
   .project-links a {
     display: block;
-    /* 	flex-direction: column;
-	flex-wrap: nowrap; */
   }
 }
 
-/*manages the github and linkedin divs*/
-/* .socialLinks {
-  display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	align-content: flex-start;
-} */
-/*tags the github and linkedin logo <a> links*/
 .socialLinks a:hover {
   animation: shake 0.5s;
 }
