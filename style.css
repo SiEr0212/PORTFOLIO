@@ -101,6 +101,7 @@ html {
 /* shows the current page highlighted */
 #currentPage {
   color: chartreuse;
+  opacity: 80%;
 }
 /* The navigation menu links */
 .sidenav a {
