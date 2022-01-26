@@ -147,11 +147,11 @@ html {
     );
   }
 
-  .aboutSubText  {
+  #aboutSubTextMobile {
     width: 90vw;
   }
 
-  .webdevTitle {
+  .webdevTitle  {
     color: ghostwhite;
   }
 
