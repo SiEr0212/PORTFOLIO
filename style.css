@@ -131,7 +131,7 @@ html {
 
   .sidenav {
     position: absolute;
-    left: -5%;
+    left: 0;
     top: 0;
     padding-left: 0%;
     height: 10vh;
