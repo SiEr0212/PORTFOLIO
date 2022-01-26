@@ -123,6 +123,15 @@ html {
   padding: 0px 10px;
 }
 
+.socialLinks a:hover {
+  animation: shake 0.5s;
+}
+
+.aSocialLinks {
+  padding: 10px;
+  margin: -20px;
+}
+
 @media screen and (max-width: 480px) {
   .main {
     margin: auto;
@@ -136,11 +145,14 @@ html {
       rgba(35, 255, 0, 0.7511379551820728) 13%,
       rgba(20, 32, 255, 0.6110819327731092) 81%
     );
-   
   }
 
-  .webdevTitle{
-    color:ghostwhite;
+  .aboutSubText {
+    width: 70vw;
+  }
+
+  .webdevTitle {
+    color: ghostwhite;
   }
 
   .sidenav {
@@ -151,7 +163,7 @@ html {
     height: 16vh;
     width: 100%;
     margin-top: 0vh;
-   /*  margin-bottom: 100vh; */
+    /*  margin-bottom: 100vh; */
     overflow: hidden;
     display: flex;
     flex-direction: row;
@@ -179,7 +191,7 @@ html {
     padding: auto;
     display: flex;
   }
-  
+
   .projectsText {
     padding: 30px;
     font-weight: 600;
@@ -192,19 +204,6 @@ html {
   .project-links a {
     display: block;
   }
-
-  .aboutSubText {
-    width: 100vw
-  }
-}
-
-.socialLinks a:hover {
-  animation: shake 0.5s;
-}
-
-.aSocialLinks {
-  padding: 10px;
-  margin: -20px;
 }
 
 @keyframes shake {
@@ -244,6 +243,7 @@ html {
 }
 
 /*About-Page*/
+
 .aboutMain {
   display: flex;
   flex-direction: column;
@@ -288,7 +288,7 @@ html {
 
 .aboutSubText {
   margin-top: 5vh;
-  width: 35vw;
+  width: 50vw;
   text-align: start;
   font-family: "Roboto", sans-serif;
   color: rgb(34, 34, 189);
