@@ -302,6 +302,9 @@ html {
   color: rgb(34, 34, 189);
   font-weight: 500;
 }
+#cvFoto {
+  width: 50vh;
+}
 /*Projects Page*/
 
 .projectHeader {
