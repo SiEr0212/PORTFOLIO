@@ -99,9 +99,8 @@ html {
 }
 
 /* shows the current page highlighted */
-.currentPage {
-  color: red;
-  border-radius: 2px;
+#currentPage {
+  color: chartreuse;
 }
 /* The navigation menu links */
 .sidenav a {
