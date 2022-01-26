@@ -129,6 +129,20 @@ html {
     padding-top: auto;
   }
 
+  body {
+    background: rgb(35, 255, 0);
+    background: radial-gradient(
+      circle,
+      rgba(35, 255, 0, 0.7511379551820728) 13%,
+      rgba(20, 32, 255, 0.6110819327731092) 81%
+    );
+   
+  }
+
+  .webdevTitle{
+    color:ghostwhite;
+  }
+
   .sidenav {
     position: absolute;
     left: 0;
