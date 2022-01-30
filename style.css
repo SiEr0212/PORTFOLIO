@@ -148,10 +148,10 @@ html {
   }
 
   #aboutSubTextMobile {
-    width: 90vw;
+    width: 80vw;
   }
 
-  .webdevTitle  {
+  .webdevTitle {
     color: ghostwhite;
   }
 
@@ -209,7 +209,6 @@ html {
     width: 50%;
     height: 50vw;
   }
- 
 }
 
 @keyframes shake {
