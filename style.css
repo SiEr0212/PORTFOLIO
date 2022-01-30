@@ -204,6 +204,16 @@ html {
   .project-links a {
     display: block;
   }
+  .aboutFoto {
+    width: 50%;
+    height: 20vw;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 5px solid rgb(34, 34, 189);
+    margin-top: 5vh;
+    background-color: #fdfdfd;
+  }
   
 }
 
