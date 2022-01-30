@@ -205,7 +205,7 @@ html {
     display: block;
   }
 
-  .mobileAboutFoto {
+  #mobileAboutFoto {
     width: 50%;
     height: 50vw;
   }
