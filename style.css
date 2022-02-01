@@ -214,8 +214,6 @@ html {
   #cvContainer {
     width: 25%;
     margin-top: 8vh;
-    flex-direction: column;
-    flex-wrap: nowrap;
   }
 
   #cvDownload {
