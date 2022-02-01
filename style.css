@@ -210,6 +210,11 @@ html {
     width: 50%;
     height: 50vw;
   }
+
+  #cvContainer {
+    width: 25%;
+    margin-top: 8vh;
+  }
 }
 
 @keyframes shake {
@@ -303,6 +308,7 @@ html {
 }
 
 /*CV PAGE*/
+
 #cvContainer {
   display: flex;
   flex-direction: column;
