@@ -214,12 +214,12 @@ html {
   #cvContainer {
     width: 25%;
     margin-top: 8vh;
+    margin-bottom: 2vh;
   }
 
-  #cvDownload {
-    width: 100%;
-
-  }
+/*   #cvDownload {
+    margin-top: 5vh;
+  } */
 }
 
 @keyframes shake {
