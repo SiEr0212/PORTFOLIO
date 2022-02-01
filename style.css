@@ -302,16 +302,16 @@ html {
   font-weight: 500;
 }
 
-/*CV PAGE*/
-/* .cvContainer {
+/* /* /*CV PAGE*/
+#cvContainer {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   align-content: center;
-} */
-
+} 
+ 
 .cvImg {
   height: 50%;
   width: 50%;
