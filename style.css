@@ -215,6 +215,10 @@ html {
     width: 25%;
     margin-top: 8vh;
   }
+
+  #cvDownload {
+    
+  }
 }
 
 @keyframes shake {
