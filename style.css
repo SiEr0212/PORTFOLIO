@@ -181,7 +181,9 @@ html {
     left: 38%;
     font-size: 18px;
   }
-
+.homeTitle{
+  margin-top: 20vh;
+}
   .sidenav a {
     font-size: 18px;
     max-width: 20vw;
