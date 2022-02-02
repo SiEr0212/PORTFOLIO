@@ -182,6 +182,10 @@ html {
     font-size: 18px;
   }
 
+  .startScreen {
+    margin-top: 42vh;
+  }
+
   .sidenav a {
     font-size: 18px;
     max-width: 20vw;
