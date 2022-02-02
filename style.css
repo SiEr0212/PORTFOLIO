@@ -216,9 +216,6 @@ html {
     margin-top: 8vh;
     margin-bottom: 2vh;
   }
-
-
-
 }
 
 @keyframes shake {
@@ -320,8 +317,8 @@ html {
   justify-content: center;
   align-items: center;
   align-content: center;
-} 
- 
+}
+
 .cvImg {
   height: 50%;
   width: 50%;
