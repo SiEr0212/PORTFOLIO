@@ -1,319 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{simon.ertel}</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <div class="container-fluid">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{simon.ertel}</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet" />
+</head>
 
-      <div class="sidenav">
-      <a href="./index.html"> <h3 class="topTitleSidebar">{simon.ertel}</h3></a>
+<body>
+  <div class="container-fluid">
+
+    <div class="sidenav">
+      <a href="./index.html">
+        <h3 class="topTitleSidebar">{simon.ertel}</h3>
+      </a>
       <a href="./about.html">about</a>
       <a href="./index.html" id="currentPage">projects</a>
       <a href="./cv.html">cv</a>
       <a href="mailto:simonertel@gmx.de">contact</a>
       <div class="socialLinks">
-        <a href="https://www.linkedin.com/in/simon-ertel/" class="aSocialLinks"
-          ><img
-            src="./images/linkedinLogo.png"
-            title="Linkedin"
-            alt="linkedin-link"
-            style="width: 42px; height: 42px"
-        /></a>
-        <a href="https://github.com/SiEr0212" class="aSocialLinks"
-          ><img
-            src="./images/githubLogo.png"
-            title="GitHub"
-            alt="GitHub-link"
-            style="width: 42px; height: 42px"
-        /></a>
+        <a href="https://www.linkedin.com/in/simon-ertel/" class="aSocialLinks"><img src="./images/linkedinLogo.png"
+            title="Linkedin" alt="linkedin-link" style="width: 42px; height: 42px" /></a>
+        <a href="https://github.com/SiEr0212" class="aSocialLinks"><img src="./images/githubLogo.png" title="GitHub"
+            alt="GitHub-link" style="width: 42px; height: 42px" /></a>
       </div>
-     </div>
+    </div>
 
-     <div class="aboutTextHeadline">
+    <div class="aboutTextHeadline">
       <h1 class="projectHeader">[projects]</h1>
-     </div>
+    </div>
 
-  
-      <div class="main">
-        <div class="ImgContainer">
+
+    <div class="main">
+      <div class="ImgContainer">
+
+        <div class="row justify-content-center">
+          <div class="col-xs-12 col-md-6 text-center">
+            <div class="single_projects">
+              <a href="https://floating-fortress-52108.herokuapp.com/">
+                <img src="./images/myTent2.png" alt="MyTent" class="img-fluid gallery-imgs mx-auto project-pics" />
+              </a>
+              <p class="projectsText">
+                <b>MyTent</b>
+                <br /><br />
+                MyTent is an web application where you can add nice spots to
+                camp in the wilderness to a map. Users can sign up to create
+                an account which allows them to add these places and also
+                allows them to add spots from other Users to their favorites.
+                <br />
+                MyTent was realized with: React MongoDB Express Node JS Mapbox
+                GL JS API
+              </p>
+              <div class="project-links">
+                <div>
+                  <a href="https://floating-fortress-52108.herokuapp.com/" class="button">See it live</a>
+                </div>
+                <div>
+                  <a href="https://github.com/MyTent-io/MyTent" class="button">See it on GitHub
+                    <img src="./images/githubLogo.png" class="githubLinkLogo" alt="github logo"></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-md-6 text-center">
+            <div class="single_projects">
+              <a href="https://upbeat-lamarr-d6fdbf.netlify.app/">
+                <img src="./images/social_media_app.png" class="img-fluid gallery-imgs mx-auto project-pics" />
+              </a>
+              <p class="projectsText">
+                <b>Chat app</b>
+                <br /><br />
+                This is a social media app using the MERNG stack.
+                <br />
+                I implemented a GraphQL server that uses Node and Express to
+                communicate to a MongoDB Database and that fetches and
+                persists data to a social media app back-end.
+                <br />
+                - Users can create and delete posts
+                <br />
+                - Users can like and comment posts of other users
+                <br />
+                This app was realized with:
+                <br />
+                React, MongoDB, Express, Node JS, GraphQL
+              </p>
+
+              <div class="project-links">
+                <div>
+                  <a href="https://upbeat-lamarr-d6fdbf.netlify.app/" class="button">See it live</a>
+                </div>
+                <div>
+                  <a href="https://github.com/SiEr0212/Social_Media_App" class="button">See it on GitHub
+                    <img src="./images/githubLogo.png" class="githubLinkLogo" alt="github logo"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
 
           <div class="row justify-content-center">
             <div class="col-xs-12 col-md-6 text-center">
               <div class="single_projects">
-                <a href="https://floating-fortress-52108.herokuapp.com/">
-                <img
-                  src="./images/myTent2.png"
-                  alt="MyTent"
-                  class="img-fluid gallery-imgs mx-auto project-pics"
-                />
-              </a>
-                 <p class="projectsText">
-                   <b>MyTent</b>
-                   <br /><br />
-                   MyTent is an web application where you can add nice spots to
-                   camp in the wilderness to a map. Users can sign up to create
-                   an account which allows them to add these places and also
-                   allows them to add spots from other Users to their favorites.
-                   <br />
-                   MyTent was realized with: React MongoDB Express Node JS Mapbox
-                   GL JS API
-                 </p>
+                <a href="https://sier0212.github.io/My-Game/">
+                  <img src="./images/START SCREEN.png" alt="Project2"
+                    class="img-fluid gallery-imgs mx-auto project-pics" />
+                </a>
+
+                <p class="projectsText">
+                  <b>ReaperRunner</b><br /><br />
+                  An oldschool Jump'N'Run game realized with JavaScript and P5.js
+                </p>
                 <div class="project-links">
-                   <div>
-                     <a
-                      href="https://floating-fortress-52108.herokuapp.com/"
-                      class="button"
-                     >See it live</a
-                    >
+                  <div>
+                    <a href="https://sier0212.github.io/My-Game/" class="button">See it live</a>
                   </div>
-                   <div>
-                    <a href="https://github.com/MyTent-io/MyTent" class="button"
-                    >See it on GitHub
-                    <img src="./images/githubLogo.png" class="githubLinkLogo" alt="github logo"></a
-                    >
-               </div>
-              </div>
-              
+                  <div>
+                    <a href="https://github.com/SiEr0212/My-Game" class="button">See it on GitHub
+                      <img src="./images/githubLogo.png" class="githubLinkLogo" alt="github logo"></a>
+                  </div>
+                </div>
               </div>
             </div>
-            
+
             <div class="col-xs-12 col-md-6 text-center">
               <div class="single_projects">
-                <a href="https://upbeat-lamarr-d6fdbf.netlify.app/">
-                <img
-                  src="./images/social_media_app.png"
-                  class="img-fluid gallery-imgs mx-auto project-pics"
-                />
-              </a>
+                <a href="https://github.com/PollenCheckApp/PollenApp">
+                  <img src="./images/pollenapp.png" alt="MyTent" class="img-fluid gallery-imgs mx-auto project-pics" />
+                </a>
+
                 <p class="projectsText">
-                  <b>Chat app</b>
+                  <b>Pollen-Checker</b><br /><br />
+                  An App that provides you with the realtime Pollen Count
+                  according to your Allergies. <br />Realized with JavaScript,
+                  MonongoDb, Express and Bootstrap.
+                </p>
+                <div class="project-links">
+                  <!--a href="https://pollen-checker.herokuapp.com/" class="button">See it live</a-->
+                  <div>
+                    <a href="https://github.com/PollenCheckApp/PollenApp" class="button">See it on GitHub
+                      <img src="./images/githubLogo.png" class="githubLinkLogo" alt="github logo"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col-xs-12 col-md-6 text-center">
+              <div class="single_projects">
+                <a href="https://morgaineschaefer.com/">
+                  <img src="./images/morgaineWebsite1.png" class="img-fluid gallery-imgs mx-auto project-pics" />
+                </a>
+                <p class="projectsText">
+                  <b>Art Portfolio Website for Morgaine Schäfer</b>
                   <br /><br />
-                  This is a social media app using the MERNG stack.
+                  This is an Art portfolio website that I created for Düsseldorf
+                  based Artist Morgaine Schäfer.
                   <br />
-                  I implemented a GraphQL server that uses Node and Express to
-                  communicate to a MongoDB Database and that fetches and
-                  persists data to a social media app back-end.
+                  For this project I used wordpress, JavaScript and Elementor.
                   <br />
-                  - Users can create and delete posts
-                  <br />
-                  - Users can like and comment posts of other users
-                  <br />
-                  This app was realized with:
-                  <br />
-                  React, MongoDB, Express, Node JS, GraphQL
                 </p>
 
                 <div class="project-links">
                   <div>
-                  <a
-                    href="https://upbeat-lamarr-d6fdbf.netlify.app/"
-                    class="button"
-                    >See it live</a
-                  >
-                </div>
-                <div>
-                  <a
-                    href="https://github.com/SiEr0212/Social_Media_App"
-                    class="button"
-                    >See it on GitHub
-                    <img src="./images/githubLogo.png" class="githubLinkLogo" alt="github logo"></a
-                  >
-                </div>
+                    <a href="https://morgaineschaefer.com/" class="button">See it live</a>
+                  </div>
                 </div>
               </div>
             </div>
-       
 
-        <div class="row justify-content-center">
-          <div class="col-xs-12 col-md-6 text-center">
-            <div class="single_projects">
-              <a href="https://sier0212.github.io/My-Game/">
-              <img
-                src="./images/START SCREEN.png"
-                alt="Project2"
-                class="img-fluid gallery-imgs mx-auto project-pics"
-              />
-            </a>
+            <div class="col-xs-12 col-md-6 text-center">
+              <div class="single_projects">
+                <a href="https://interiorofdata.org">
+                  <img src="./images/DoraWebseite.png" class="img-fluid gallery-imgs mx-auto project-pics" />
+                </a>
+                <p class="projectsText">
+                  <b>Interior of Data</b>
+                  <br /><br />
+                  Interior of Data is an interactive Artwork I realized for
+                  Düsseldorf based Artist Dora Celentano.
+                  <br />
+                  I implemented a responsive Image map thatt allows you to click
+                  on the different drawings. These are links to other webpages
+                  that inspired the artist for these specific drawings.
 
-              <p class="projectsText">
-                <b>ReaperRunner</b><br /><br />
-                An oldschool Jump'N'Run game realized with JavaScript and P5.js
-              </p>
-<div class="project-links">
-           <div>
-              <a href="https://sier0212.github.io/My-Game/" class="button"
-                >See it live</a
-              >
+                  <br />
+                  This app was realized with:
+                  <br />
+                  HTML, CSS and JavaScript
+                </p>
+
+                <div class="project-links">
+                  <div>
+                    <a href="https://interiorofdata.org" class="button">See it live</a>
+                  </div>
+                  <div>
+                    <a href="https://github.com/SiEr0212/DORAS_ART-WEBSITE_2021" class="button">See it on GitHub
+                      <img src="./images/githubLogo.png" class="githubLinkLogo" alt="github logo"></a>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div>
-              <a href="https://github.com/SiEr0212/My-Game" class="button"
-                >See it on GitHub
-                <img src="./images/githubLogo.png" class="githubLinkLogo" alt="github logo"></a
-              >
-            </div>
-            </div>
-            </div>
+
           </div>
 
-          <div class="col-xs-12 col-md-6 text-center">
-            <div class="single_projects">
-              <a href="https://github.com/PollenCheckApp/PollenApp">
-              <img
-                src="./images/pollenapp.png"
-                alt="MyTent"
-                class="img-fluid gallery-imgs mx-auto project-pics"
-              />
-            </a>
 
-              <p class="projectsText">
-                <b>Pollen-Checker</b><br /><br />
-                An App that provides you with the realtime Pollen Count
-                according to your Allergies. <br />Realized with JavaScript,
-                MonongoDb, Express and Bootstrap.
-              </p>
-              <div class="project-links">
-                <!--a href="https://pollen-checker.herokuapp.com/" class="button">See it live</a-->
-              <div>
-                <a
-                  href="https://github.com/PollenCheckApp/PollenApp"
-                  class="button"
-                  >See it on GitHub
-                  <img src="./images/githubLogo.png" class="githubLinkLogo" alt="github logo"></a
-                >
-              </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row justify-content-center">
-          <div class="col-xs-12 col-md-6 text-center">
-            <div class="single_projects">
-              <a href="https://morgaineschaefer.com/">
-              <img
-                src="./images/morgaineWebsite1.png"
-                class="img-fluid gallery-imgs mx-auto project-pics"
-              />
-            </a>
-              <p class="projectsText">
-                <b>Art Portfolio Website for Morgaine Schäfer</b>
-                <br /><br />
-                This is an Art portfolio website that I created for Düsseldorf
-                based Artist Morgaine Schäfer.
-                <br />
-                For this project I used wordpress, JavaScript and Elementor.
-                <br />
-              </p>
-
-              <div class="project-links">
-                <div>
-                <a href="https://morgaineschaefer.com/" class="button"
-                  >See it live</a
-                >
-              </div>
+          <div class="row justify-content-start">
+            <div class="col-xs-12 col-md-6 text-center">
+              <div class="single_projects">
+                <a href="https://www.thorsten-schoth.de/">
+                  <img src="./images/THORSTEN_WEBSITE.png" class="img-fluid gallery-imgs mx-auto project-pics" />
+                </a>
+                <p class="projectsText">
+                  <b>Art Portfolio Website for Thorsten Schoth</b>
+                  <br /><br />
+                  This is an Art portfolio website that I created for Düsseldorf
+                  based Artist Thorsten Schoth. I made a custumized animated menu
+                  <br />
+                  For this project I used HTML, CSS and JavaScript.
+                  <br />
+                </p>
+                <div class="project-links">
+                  <div>
+                    <a href="https://www.thorsten-schoth.de/" class="button">See it live</a>
+                  </div>
+                  <a href="https://github.com/SiEr0212/Thorsten_Schoth_ART-WEBSITE" class="button">See it on GitHub
+                    <img src="./images/githubLogo.png" class="githubLinkLogo" alt="github logo"></a>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="col-xs-12 col-md-6 text-center">
-            <div class="single_projects">
-              <a href="https://interiorofdata.org">
-              <img
-                src="./images/DoraWebseite.png"
-                class="img-fluid gallery-imgs mx-auto project-pics"
-              />
-            </a>
-              <p class="projectsText">
-                <b>Interior of Data</b>
-                <br /><br />
-                Interior of Data is an interactive Artwork I realized for
-                Düsseldorf based Artist Dora Celentano.
-                <br />
-                I implemented a responsive Image map thatt allows you to click
-                on the different drawings. These are links to other webpages
-                that inspired the artist for these specific drawings.
 
-                <br />
-                This app was realized with:
-                <br />
-                HTML, CSS and JavaScript
-              </p>
-
-              <div class="project-links">
-                <div>
-                <a href="https://interiorofdata.org" class="button"
-                  >See it live</a
-                >
-              </div>
-              <div>
-                <a
-                  href="https://github.com/SiEr0212/DORAS_ART-WEBSITE_2021"
-                  class="button"
-                  >See it on GitHub
-                  <img src="./images/githubLogo.png" class="githubLinkLogo" alt="github logo"></a
-                >
-              </div>
-              </div>
-            </div>
-           </div>
-
-          </div>
-       
-
-          <div class="row justify-content-start">       
-           <div class="col-xs-12 col-md-6 text-center">
-             <div class="single_projects">
-              <a href="https://www.thorsten-schoth.de/">
-              <img
-                src="./images/THORSTEN_WEBSITE.png"
-                class="img-fluid gallery-imgs mx-auto project-pics"
-              />
-                     </a>
-              <p class="projectsText">
-                <b>Art Portfolio Website for Thorsten Schoth</b>
-                <br /><br />
-                This is an Art portfolio website that I created for Düsseldorf
-                based Artist Thorsten Schoth. I made a custumized animated menu
-                <br />
-                For this project I used HTML, CSS and JavaScript.
-                <br />
-              </p>
-              <div class="project-links">
-                <div>
-                <a href="https://www.thorsten-schoth.de/" class="button"
-                  >See it live</a
-                >
-              </div>
-                <a
-                  href="https://github.com/SiEr0212/Thorsten_Schoth_ART-WEBSITE"
-                  class="button"
-                  >See it on GitHub
-                  <img src="./images/githubLogo.png" class="githubLinkLogo" alt="github logo"></a
-                >
-              </div>
-            </div>
-          </div>
-          </div>
-       
-      
         </div>
 
       </div>
     </div>
-  </body>
+</body>
+
 </html>
